@@ -23,7 +23,7 @@ from openerp.osv import fields, osv, orm
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import openerp.addons.decimal_precision as dp
-from tools.translate import _
+from openerp.tools.translate import _
 
 
 class account_asset_category(orm.Model):
